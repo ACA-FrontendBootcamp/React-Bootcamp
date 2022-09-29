@@ -1,0 +1,30 @@
+.image{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.item{
+    position: relative;
+    width: 450px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border:2px solid gray;
+}
+
+.input{
+    width: 450px;
+    height: 30px;
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+.item_container{
+    left: 450px;
+    display: grid;
+    position: absolute;
+    gap: 4px;
+}
