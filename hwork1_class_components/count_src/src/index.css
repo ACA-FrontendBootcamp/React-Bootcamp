@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(90deg, pink 0%, black 100%);
+  }
+
+.container{
+    width: 520px;
+    min-height: 140px;
+    background: #e2e2e2;
+    text-align: center;
+    margin: 120px auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.input_container{
+    position: relative;
+    top :10px;
+}
+
+.input{
+    height: 20px;
+    width: 93px;
+    border-radius: 4px;
+   
+}
+
+.count{
+    position: relative;
+    top: 3px;
+}
+
+.button_container{
+    position: relative;
+    top: 10px;
+}
