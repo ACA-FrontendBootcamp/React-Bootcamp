@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(90deg, pink 0%, rgb(101, 16, 16) 100%);
+}
+
+.container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 170px;
+}
+
+.allcontainer {
+  position: absolute;
+}
+
+.show {
+  position: absolute;
+  left: 500px;
+  top: 180px;
+  background-color: antiquewhite;
+  width: 300px;
+  height: 160px;
+  border-radius: 5px;
+}
+
+.showitem {
+  position: relative;
+  height: 29px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  top: 20px;
+  left: 20px;
+}
