@@ -1,34 +1,35 @@
-import React from 'react'
-import GalleryDivision from '../galleryDivision'
+import React from "react";
+import GalleryDivision from "../galleryDivision";
 
-function DivisionContainer({records}){
-    return(
-        <div className='listWrapper'>
-{
-    records.map(({ 
-        id,
-        images,
-        division,
-        copyright,
-        creditline,
-        totaluniquepageviews,
-        verificationleveldescription
-    } )=> <GalleryDivision 
-            key = {id}
-    {...{
-                id,
-                images,
-                division,
-                copyright,
-                creditline,
-                totaluniquepageviews,
-                verificationleveldescription}}/>
-         
+function DivisionContainer({ records }) {
+  return (
+    <div className="listWrapper">
+      {records.map(
+        ({
+          id,
+          images,
+          division,
+          copyright,
+          creditline,
+          totaluniquepageviews,
+          verificationleveldescription,
+        }) => (
+          <GalleryDivision
+            key={id}
+            {...{
+              id,
+              images,
+              division,
+              copyright,
+              creditline,
+              totaluniquepageviews,
+              verificationleveldescription,
+            }}
+          />
         )
+      )}
+    </div>
+  );
 }
-        </div>
-    )
 
-}
-
-export default DivisionContainer
+export default DivisionContainer;
