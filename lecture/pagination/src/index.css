@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(90deg, pink 0%, rgb(101, 16, 16) 100%);
+}
+
+.galleryItem{
+  width: auto;
+  height: 200px;
+  max-width: 400px;
+}
+
+.divisions{
+  display: flex;
+  flex-direction: column;
+}
+
+.division{
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+}
+
+.paginationWrapper{
+  display: flex;
+  width: 100vh;
+  height: 100px;
+  align-items: center;
+  justify-content:center ;
+  gap: 16px;
+}
+
+.active{
+  background-color:rgb(101, 16, 16);
+  border: none;
+
+}
