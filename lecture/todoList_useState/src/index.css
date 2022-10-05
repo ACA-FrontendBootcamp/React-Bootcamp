@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(90deg, pink 0%, rgb(101, 16, 16) 100%);
+}
+
+.todoListWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+}
+
+.todoList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 400px;
+ height: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  flex-direction: column;
+ 
+}
+
+.todo{
+    height: 36px;
+    border: 1px solid pink;
+    color: pink;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+}
+
+.todoes{
+  width: 80%;
+}
+
+.icon{
+  width:16px;
+  height: 16px;
+}
+
+.done{
+  text-decoration: line-through;
+}
